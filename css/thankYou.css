@@ -1,0 +1,35 @@
+body{
+  background-image: url("/images/bgThankYou.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat; 
+  background-position: center center;
+  height: 100vh; 
+}
+
+h2{
+  color: white;
+}
+
+.a-href{
+  background: rgb(78, 78, 78);
+  text-decoration: none;
+  text-align: center;
+
+  display: inline-block;
+  color: white;
+  padding: 6px 15px;
+}
+.a-href:hover{
+  background: rgb(220, 220, 220);
+  border: solid 1px rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+}
+
+.cupidImg{
+  position: absolute;
+  height: 330px;
+  width: 300px;
+  top: 40%;
+} 
+
+

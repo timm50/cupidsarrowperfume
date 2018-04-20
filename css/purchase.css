@@ -1,0 +1,193 @@
+/* VARIABLES */
+:root{
+  --purpleColor: #de7de7; 
+}
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-image: url("/images/girlFree.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+
+#container{
+  display: flex;
+  justify-content: space-between;
+}
+
+#paypal{
+  padding-top: 30px;
+  text-align: center; 
+}
+
+.ebay{
+  color: white;
+}
+ 
+.btn{
+  border-radius: 15px;
+  color: var(--purpleColor);
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border: 2px solid rgb(197, 75, 167);
+  font-weight: bold;
+} 
+
+#main-header h2{
+  text-align: center;
+  color: white;
+}
+
+#navbar{
+grid-column: 3 / 4; 
+grid-row: 1;
+text-align: center;
+}
+
+#navbar .primary-text{
+  color: white;
+}
+
+#navbar .span a{
+  text-decoration: none;
+  color: var(--purpleColor);
+}
+
+#navbar ul{
+  padding-top: 10px;
+}
+
+#navbar li{
+  list-style: none;
+}
+
+#navbar li a{
+  text-decoration: none;
+  color: white; 
+  margin-right: 0;
+} 
+
+#navbar li a:hover{
+  color: var(--purpleColor);
+ }
+
+.product{
+    background-image: url("/images/onPurchase3.jpg");      
+    background-repeat: no-repeat;
+    width: 219px;
+    height: 187px;
+    margin-left: 10px;
+    margin-top: 10px;
+}   
+
+
+#form{
+  grid-column: 2 / 3;
+  grid-row: 2;
+  text-align: center;
+  color: white;
+}
+
+#form li{
+  list-style: none;
+}
+
+#footer{
+  text-align: center;
+  padding-top: 100px;
+  color: white;
+}
+
+
+/* FORM */
+.container2{
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+}
+
+.brand{
+  text-align: center;
+  color: var(--purpleColor); 
+}
+
+.brand span{
+  color: white;
+}
+
+.grid > *{
+  padding: 1em;
+}
+
+.contact{
+  background: none;
+  border: 2px solid;
+  border-color: var(--purpleColor);
+}
+
+.alert{
+  text-align: center;
+  padding: 10px;
+  background: #79c879;
+  color: #fff;
+  margin-bottom: 10px;
+  display: none;
+}
+
+/* FORM STYLES */
+.contact form{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.contact form label{
+  display: block;
+}
+
+.contact form p{
+  margin: 0;
+}
+
+.contact form .full{
+  grid-column: 1 / 3;  
+}
+
+.contact form button, .contact form input, .contact form textarea{
+  width: 100%;
+  padding: 1em;
+}
+
+.contact form button{
+  background: rgb(192, 246, 250); 
+  border: 0;
+  text-transform: uppercase;
+}
+
+.contact form button:hover, .contact form button:focus{
+  background:rgb(103, 207, 248);
+  color: rgb(129, 4, 108); 
+  outline: none;  
+}
+
+@media(max-width: 950px){
+  #container{
+    flex-wrap: wrap;         
+  }
+}
+  
